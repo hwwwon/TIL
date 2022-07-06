@@ -21,7 +21,7 @@
   - 웹 사이트 화면 기능이 복잡해지고 화면 기능과 비즈니스 로직 기능이 섞이면서 유지보수 문제 발생
   - 코드 재사용성도 떨어져 비효율적
 
-  ![모델1 방식](C:\TIL\img\모델1 방식.png)
+  <img src="../img/모델1 방식.png"></img>
 
 - 모델 2방식 **(MVC 패턴)**
 
@@ -36,7 +36,7 @@
   - 개발 후 서비스 제공 시 유지보수 편리
   - 현재 모든 웹 프로그램은 모델 2방식으로 개발
 
-![모델 2방식](C:\TIL\img\모델 2방식.png)
+<img src="../img/모델 2방식.png">
 
 
 
@@ -64,7 +64,7 @@
 - FrontController가 수행하던 작업을 각 클래스로 분산처리
 - 각 클래스는 통일된 형식(규격)으로 처리하도록 interface로 구현
 
-![command패턴](C:\TIL\img\command패턴.png)
+<img src="../img/command패턴.png"></img>
 
 
 
@@ -77,4 +77,4 @@
 
   
 
-  ![Spring MVC 구조](C:\TIL\img\Spring MVC 구조.png)
+  <img src="../img/Spring MVC 구조.png"></img>

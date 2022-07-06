@@ -21,7 +21,7 @@
   - 웹 사이트 화면 기능이 복잡해지고 화면 기능과 비즈니스 로직 기능이 섞이면서 유지보수 문제 발생
   - 코드 재사용성도 떨어져 비효율적
 
-  ![모델1 방식](C:\Users\Hyewon\Pictures\Screenshots\모델1 방식.png)
+  ![모델1 방식](C:\TIL\img\모델1 방식.png)
 
 - 모델 2방식 **(MVC 패턴)**
 
@@ -36,6 +36,8 @@
   - 개발 후 서비스 제공 시 유지보수 편리
   - 현재 모든 웹 프로그램은 모델 2방식으로 개발
 
+![모델 2방식](C:\TIL\img\모델 2방식.png)
+
 
 
 ## MVC 패턴
@@ -43,8 +45,6 @@
 - M : Model (DTO / DAO)
 - V : View (JSP 페이지)
 - C : Controller
-
-![모델 2방식](C:\Users\Hyewon\Pictures\Screenshots\모델 2방식.png)
 
 
 
@@ -64,7 +64,7 @@
 - FrontController가 수행하던 작업을 각 클래스로 분산처리
 - 각 클래스는 통일된 형식(규격)으로 처리하도록 interface로 구현
 
-![command패턴](C:\Users\Hyewon\Pictures\Screenshots\command패턴.png)
+![command패턴](C:\TIL\img\command패턴.png)
 
 
 
@@ -75,6 +75,6 @@
   - 컨트롤러 선택 (HandlerMapping)해서 요청을 컨트롤러에게 전달
   - View 검색 (ViewResolver)해서 해당되는 View로 서비스 응답
 
-  ![Spring MVC 구조](C:\Users\Hyewon\Pictures\Screenshots\Spring MVC 구조.png)
-
   
+
+  ![Spring MVC 구조](C:\TIL\img\Spring MVC 구조.png)

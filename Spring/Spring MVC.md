@@ -1,0 +1,80 @@
+# 웹 애플리케이션 개발
+
+- 기존의 웹 애플리케이션 개발 방법에 따라 개발 진행
+
+- 많이 상용하는 표준화 소스 구조를 만들어 개발 진행
+
+- 웹 애플리케이션 모델
+
+  - 표준화된 소스 구조 : 모델 1방식
+  - 표준화된 소스 구조 : 모델 2방식
+
+- 모델 1방식
+
+  - 모든 클라이언트의 요청과 비즈니스 로직을 JSP가 담당
+  - 순서
+    - 클라이언트 요청
+    - JSP(화면 기능 / 로직 처리)
+    - DAO
+    - DB
+  - 기능 구현이 쉽고 편리
+  - 웹 사이트 화면 기능이 복잡해지고 화면 기능과 비즈니스 로직 기능이 섞이면서 유지보수 문제 발생
+  - 코드 재사용성도 떨어져 비효율적
+
+  ![모델1 방식](C:\Users\Hyewon\Pictures\Screenshots\모델1 방식.png)
+
+- 모델 2방식 **(MVC 패턴)**
+
+  - 모델 1방식의 단점 보완
+  - 웹 애플리케이션의 각 기능을 분리해서 구현
+    - 클라이언트 요청 처리
+    - 응답처리
+    - 비즈니스 로직 처리
+  - 각 기능이 분리되어 모듈화되어 있으므로 모듈별 개발이 가능
+  - 모듈을 비슷한 프로그램 개발에 사용할 수 있어 코드 재사용성이 높음
+  - 응용프로그램 확장성 및 이식성이 좋아짐
+  - 개발 후 서비스 제공 시 유지보수 편리
+  - 현재 모든 웹 프로그램은 모델 2방식으로 개발
+
+
+
+## MVC 패턴
+
+- M : Model (DTO / DAO)
+- V : View (JSP 페이지)
+- C : Controller
+
+![모델 2방식](C:\Users\Hyewon\Pictures\Screenshots\모델 2방식.png)
+
+
+
+## FrontController  패턴
+
+- 모든 클라이언트 요청을 한 곳에서 처리하도록 하나의 대표 컨트롤러 사용
+- 별도의 클래스를 추가하지 않고 Front Controller가 모두 처리 (FrontController 내용이 길고 복잡해짐)
+- 클라이언트 요청을 한 곳으로 집중시켜서 효율적으로 개발 및 유지보수 가능
+
+
+
+## Command 패턴
+
+> 각 클래스로 작업 분산처리
+
+- FrontController가 모든 클라이언트 요청을 직접 다 처리하지 않고, 각 작업에 해당되는 클래스가 처리
+- FrontController가 수행하던 작업을 각 클래스로 분산처리
+- 각 클래스는 통일된 형식(규격)으로 처리하도록 interface로 구현
+
+![command패턴](C:\Users\Hyewon\Pictures\Screenshots\command패턴.png)
+
+
+
+## Spring MVC 구조
+
+- **DispatcherServlet (프론트 컨트롤러)**
+
+  - 컨트롤러 선택 (HandlerMapping)해서 요청을 컨트롤러에게 전달
+  - View 검색 (ViewResolver)해서 해당되는 View로 서비스 응답
+
+  ![Spring MVC 구조](C:\Users\Hyewon\Pictures\Screenshots\Spring MVC 구조.png)
+
+  

@@ -57,17 +57,12 @@ document.write("합계: "+sum());
 - 천단위 구분 기호 표시 : toLocaleString()
   - amount.toLocalString(); : 1,000,000 표시
 
-
-
+<br><br>
 ------------------
 
 ### 함수의 매개변수
 
 - 함수 호출 시 전달된 값을 받기 위해 사용되는 변수
-
-
-
---------------------
 
 
 
@@ -189,5 +184,3 @@ function call(callback){
 - 사용(객체.메소드())
   - today.getMonth();
   - arr.sort();
-- Date 객체
-- 

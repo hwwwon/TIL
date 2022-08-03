@@ -23,7 +23,7 @@
 	- 데이터의 의미와 데이터에 가해진 제약조건 명시
 
 - 데이터 모델링 과정
-![[모델링.png]]
+![image](https://github.com/hwwwon/TIL/blob/master/img/%EB%AA%A8%EB%8D%B8%EB%A7%81.png)
 
 <br>
 
@@ -49,4 +49,5 @@
 
 -----------
 <br>
-![[모델링2.png]]
+
+![image](https://github.com/hwwwon/TIL/blob/master/img/%EB%AA%A8%EB%8D%B8%EB%A7%812.png)

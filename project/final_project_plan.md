@@ -2,28 +2,14 @@
 
 
 
-### 팀명 :
+### 팀명 : 불사조
 
-<center>
-    <h3>
-        불사조
-    </h3>
-</center>
+### 팀원 : 황재윤 곽경록 이동욱 이혜원
 
 
+### 주제 : **반려동물 AI 정보 커뮤니티**
 
-
-### 팀원 : 
-
-####       황재윤 곽경록 이동욱 이혜원
-
-
-
-### 주제 : 
-
-##     **반려동물 AI 정보 커뮤니티**
-
-
+<br>
 
 ### 목적 : 
 
@@ -238,12 +224,15 @@
 
 ### TIMELINE
 
+![image](https://github.com/hwwwon/TIL/blob/master/img/detail_plan.png)
 
 
 
 ### 데이터베이스 설계 
 
-
+![image](https://github.com/hwwwon/TIL/blob/master/img/ERD.png)
 
 
 ### UI 설계(홈페이지 계층 구조도)
+
+![image](https://github.com/hwwwon/TIL/blob/master/img/UI%EA%B3%84%EC%B8%B5%EA%B5%AC%EC%A1%B0%EB%8F%84.png)

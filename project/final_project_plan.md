@@ -4,16 +4,11 @@
 
 ### 팀명 :
 
-![image-20220805151249843](MultiCampus Final Project.assets/image-20220805151249843.png)
-
 <center>
     <h3>
         불사조
     </h3>
 </center>
-
-
-
 
 
 
@@ -58,7 +53,7 @@
 
 ### 프로젝트 수행 방향:
 
-**1.** **레이아웃(UI / UX)**
+**1.레이아웃(UI / UX)**
 
 
 
@@ -94,7 +89,7 @@
 
  
 
-**2.** **백엔드 기능**
+**2.백엔드 기능**
 
 
 
@@ -179,7 +174,7 @@
 
  
 
-**3.** **사용할 API 및 AI 서비스**
+**3.사용할 API 및 AI 서비스**
 
 
 
@@ -243,17 +238,12 @@
 
 ### TIMELINE
 
-![image-20220805151357675](MultiCampus Final Project.assets/image-20220805151357675.png)
 
 
 
 ### 데이터베이스 설계 
 
-​                                                             ![MultiCampus](MultiCampus Final Project.assets/MultiCampus.png)
 
 
 
 ### UI 설계(홈페이지 계층 구조도)
-
-![image-20220805151823313](MultiCampus Final Project.assets/image-20220805151823313.png)![image-20220805151823313](MultiCampus Final Project.assets/image-20220805151823313.png)
-

@@ -42,7 +42,7 @@
 
 - Component와 Element의 관계
 
-![component_element](C:\TIL\img\component_element.jpg)
+![component_element](..\img\component_element.jpg)
 
 
 

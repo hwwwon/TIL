@@ -42,7 +42,7 @@
 
 - Component와 Element의 관계
 
-![component_element](..\img\component_element.jpg)
+<img src="..\img\component_element.jpg">
 
 
 

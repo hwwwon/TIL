@@ -129,5 +129,5 @@
 
 ### CS
 
-- [git_github](https://github.com/hwwwon/TIL/blob/master/React/git_github.md)
+- [git_github](https://github.com/hwwwon/TIL/blob/master/CS/git_github.md)
 

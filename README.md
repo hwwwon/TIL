@@ -1,8 +1,8 @@
 # Today I Learned
 
 > 하루에 공부한 것을 정리하기 위해 만든 저장소
->
-> 공부하면서 이해한 것 정리하여 작성
+
+[Java](#java) / [MySQL](#mysql) / [UI/UX](#ui--ux) / [Spring](#spring) / [API](#api) / [React](#react) / [CS](#cs)
 
 ### Git
 

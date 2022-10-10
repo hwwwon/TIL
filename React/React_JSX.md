@@ -1,6 +1,8 @@
 # React
 
 > 리액트는 JavaScript library 중 하나로서 UI를 만들기 위해 사용됨
+>
+> [리액트 공식 문서](https://ko.reactjs.org/docs/getting-started.html)
 
 
 

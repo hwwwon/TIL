@@ -107,7 +107,7 @@ function Toggle(porps){
     
     // 방법2. arrow function을 사용하여 정의
     const handleClick = () => {
-        setISToggleOn((isTobbldon) => !isToggleOn);
+        setIsToggleOn((isTobbldon) => !isToggleOn);
     }
     
     return(

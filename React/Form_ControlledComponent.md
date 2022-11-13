@@ -175,7 +175,7 @@ function Reservation(props){
 
 ## Input Null Value
 
-> value prop은 넣으면서, 사용자가 자유롭게 입력할 수 있도록 하는 방법
+> value prop는 넣으면서, 사용자가 자유롭게 입력할 수 있도록 하는 방법
 >
 > 값에 'undefined' 또는 'null'을 넣어주면 됨
 

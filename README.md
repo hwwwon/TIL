@@ -82,7 +82,6 @@
 - [function](https://github.com/hwwwon/TIL/blob/master/UI%2CUX/function.md)
 
 
-
 <br>
 
 ---------------------------------------
@@ -95,9 +94,7 @@
 - [RequestParam, PathVariable](https://github.com/hwwwon/TIL/blob/master/Spring/RequestParam%2C%20PathVariable.md)
 - [Ajax](https://github.com/hwwwon/TIL/blob/master/Spring/Ajax.md)
 - [servlet 확장 API](https://github.com/hwwwon/TIL/blob/master/Spring/servlet%20%ED%99%95%EC%9E%A5%20API.md)
-
 - [프레임워크 기반의 서비스프로그래밍](https://github.com/hwwwon/TIL/blob/master/Spring/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
-
 
 
 <br>
@@ -120,7 +117,7 @@
 
 - [React_JSX](https://github.com/hwwwon/TIL/blob/master/React/React_JSX.md)
 - [Element](https://github.com/hwwwon/TIL/blob/master/React/Element.md)
-- [Component_Props](https://github.com/hwwwon/TIL/blob/master/React/Component_Props.md)
+- [Component_Props](https://github.com/hwwwon/TIL/blob/master/React/Components_Props.md)
 - [State_Lifecycle](https://github.com/hwwwon/TIL/blob/master/React/State_Lifecycle.md)
 - [Hooks](https://github.com/hwwwon/TIL/blob/master/React/Hooks.md)
 - [useState_useEffect](https://github.com/hwwwon/TIL/blob/master/React/useState_useEffect.md)

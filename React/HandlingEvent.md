@@ -42,7 +42,7 @@ class Toggle extends React.Component{
     
     handleClick() {
         this.setState(prevState => ({
-            isToggleOn: !preState.isToggleOn
+            isToggleOn: !prevState.isToggleOn
         }));
     }
     render(){
@@ -143,7 +143,7 @@ function Toggle(porps){
 function MyButton(props){
     // 매개변수 순서 상관없음
     const handleDelete = (id, event) => {
-        console.log(id, evnet.target);
+        console.log(id, event.target);
     };
     
     return(

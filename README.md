@@ -128,6 +128,8 @@
 - [List_Key](https://github.com/hwwwon/TIL/blob/master/React/List_Key.md)
 - [Form_ControlledComponent](https://github.com/hwwwon/TIL/blob/master/React/Form_ControlledComponent.md)
 - [LiftingStateUP](https://github.com/hwwwon/TIL/blob/master/React/LiftingStateUp.md)
+- [Composition_Inheritance](https://github.com/hwwwon/TIL/blob/master/React/Composition_Inheritance.md)
+- [Context](https://github.com/hwwwon/TIL/blob/master/React/Context.md)
 
 <br>
 

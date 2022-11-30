@@ -4,13 +4,12 @@ class Solution {
         
         ArrayList<Integer> list = new ArrayList<>();
         
-        for(int i = n; i > 0; i--){
+        for(int i = 1; i <= n; i++){
             if(i % 2 == 1){
                 list.add(i);
             }
         }
         
-        Collections.sort(list);
         
         return list.stream().mapToInt(i -> i).toArray();
     }

@@ -3,9 +3,7 @@ class Solution {
         char[] arr = s.toCharArray();
         String result = "";
         for(char c : arr){
-            if(c == 32){
-                c += 0;
-            }else if(c >= 65 && c <= 90){
+            if(c >= 65 && c <= 90){
                 for(int i = 1; i <= n; i++){
                     c += 1;
                     if(c > 90) c = 65;

@@ -44,9 +44,7 @@
 - [제네릭](https://github.com/hwwwon/TIL/blob/master/Java/%EC%A0%9C%EB%84%A4%EB%A6%AD.md)
 - [람다식](https://github.com/hwwwon/TIL/blob/master/Java/%EB%9E%8C%EB%8B%A4%EC%8B%9D.md)
 - [컬렉션 프레임워크](https://github.com/hwwwon/TIL/blob/master/Java/%EC%BB%AC%EB%A0%89%EC%85%98%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.md)
-
 - [Error & Exception](https://github.com/hwwwon/TIL/blob/master/Java/Error%26Exception.md)
-
 - [HashMap](https://github.com/hwwwon/TIL/blob/master/Java/HashMap.md)
 
 <br>
@@ -87,6 +85,7 @@
 - [Ajax](https://github.com/hwwwon/TIL/blob/master/Spring/Ajax.md)
 - [servlet 확장 API](https://github.com/hwwwon/TIL/blob/master/Spring/servlet%20%ED%99%95%EC%9E%A5%20API.md)
 - [프레임워크 기반의 서비스프로그래밍](https://github.com/hwwwon/TIL/blob/master/Spring/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
+- [JPA](https://github.com/hwwwon/TIL/blob/master/Spring/JPA.md)
 
 <br>
 

@@ -2,14 +2,9 @@ import java.util.*;
 class Solution {
     public int solution(int[] array, int n) {
         Arrays.sort(array);
-        ArrayList<Integer> list = new ArrayList<>();
-        int min = 0;
-        for(int i : array){
-            if(i >= n)   min = i - n;
-            else   min = n - i;
-            list.add(min);
+        for(int i = 1; i < array.length; i++){
+            if(Math.abs(n-array[0]) > Math.abs(n-array[i])) array[0] = array[i];
         }
-        int index = list.indexOf(Collections.min(list));
-        return array[index];
+        return array[0];
     }
 }

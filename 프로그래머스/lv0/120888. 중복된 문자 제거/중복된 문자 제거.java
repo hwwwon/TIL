@@ -1,10 +1,9 @@
-import java.util.*;
 class Solution {
     public String solution(String my_string) {
-        StringBuilder sb = new StringBuilder();
+        String s = "";
         for(int i = 0; i < my_string.length(); i++){
-            if(sb.indexOf(String.valueOf(my_string.charAt(i))) == -1)  sb.append(my_string.charAt(i));
+            if(my_string.indexOf(my_string.charAt(i)) == i)  s += my_string.charAt(i);
         }
-        return sb.toString();
+        return s;
     }
 }

@@ -1,17 +1,12 @@
 class Solution {
     public int solution(int n) {  
-        int answer = 0;
-        for(int i = 10; i > 0; i--) {
-            if(fac(i) <= n) {
-                answer = i;
-                break;
-            }
+        int num = 0, fac = 1;
+        while(true){
+            if(fac <= n){
+                fac *= num + 1;
+                num++;
+            }else break;
         }
-        return answer;
+        return num - 1;
     }    
-    
-    public static int fac(int n) {
-        if(n == 1) return 1; 
-        return n * fac(n-1);
-    }
 }

@@ -14,12 +14,32 @@
 - 상수를 쉼표로 구분하며 대문자로 작성함
 - 열거형으로 선언된 순서에 따라 0부터 index를 가짐 (순차적으로 증가)
 - 마지막 열거형 선언 이후에는 세미콜론을 찍지 않음
+- 생성자와 메서드 추가 가능
 - 클래스 내부와 외부에 선언하는 방식이 있음
 
 ```java
-enum Gender{
+public enum Gender{
     MALE, FEMALE
 }
+
+// enum 생성자, 세미콜론을 마지막에 붙여야함
+public enum Gender{
+    MALE("M"), FEMALE("FE");
+    
+    private final String value;
+    
+    Gender(String value){
+        this.value = value;
+    }
+    public String value(){
+        return value;
+    }
+}
+
+// Gender.MALE.name() 
+// Male
+// Gender.MAEL.value()
+// M
 ```
 
 <br/>
